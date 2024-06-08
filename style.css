@@ -1,0 +1,41 @@
+body {
+  background: rgb(8, 6, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.section {
+  text-align: center;
+}
+
+.btn {
+  font-size: 3rem;
+  border: none;
+  background: rgba(153, 147, 147, 0.5);
+  color: white;
+  border-radius: 50%;
+  padding: 50px;
+  filter: grayscale();
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: 2px 2px 11px white;
+}
+
+.btn:hover {
+  filter: grayscale(0);
+  color: rgb(139, 27, 27);
+}
+
+.emoji-name {
+  font-weight: 600;
+  color: rgb(250, 246, 246);
+}
